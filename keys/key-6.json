@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cloudflare-pages-index-6",
+  "private_key_id": "7d1949024008ca012e2ba0f7c17308eabbf533ac",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBPbcGHZ3mSu8W\nxO68ZLkjfJFTw9IEg9jPpoJtVyyicmRBiNsTO+ZJ5XqBpwFSJrynvdlmr4Wul87m\nvpF67RhB8kZWqzGNEUlRwTwG7nLY9/6DPfGcfAiZW0+hrWVKg7+tsaPfu/3SNQGA\nimz0bREuBuo63lgmWaTP/mgiwJPEVjTHTKc/4Xkq+7w07dS0V9GU7jmGYQj0smCO\n0Bdr7zVwLZ9ZccNkNlR0dOWf3Hw1qb04OpospjUJFdNPgJSHB0Izb/uJ4usgaSeD\ngevf1/tb/POzfGJv+2xxj7Cyh15a4RonwuQ2pjqt/wC8vVdWQYCIMY4fZgw3Qx2V\n2n+kYTNFAgMBAAECggEABzNhEb5z37n8Aj1Jp8AN0VVXD4rTeFjfk9VJY3UcaGds\nGSSzMvelQf4I05sShrXJLmuz/nMc1sWtNTk7agTGdFr/zf1UAaH35+j8zEWwBm+6\n64k704GUyv6BD2g/UqWYKNDexHueZFLFI9T5CAdgxYHYRpKRjcil6UtRsHBfXN/I\nhhl3nNJNiB5DHPaSklKLvqeIJajGqIjwGmieiwUYbMwAsyY9b7TywwCacmDGGopB\nnxxGhRrJ78wCxUzRlC813t/4fhnOpFH8NOCo78lT954sVrvZnWZLd/jUu2YcBSo+\noP/mCXCds6mq0gNAj8xkG8F1EQ7YDygbIUv3Ykgc/QKBgQDpTiGrR8ndSKBXNPS+\nCAZSD3u2kgjCH7Id4dDJ4CUOsWgVAKhPOMAzEge9DSq6huUYltVJpfvc6euDcgHg\nxQnZhP7KH4RaAN6tzvwt6PAkac/Fy8KwGdpG1We9oD+THBO3eur0h41ShrMpP6Mk\nR+CgCFQe8y0cedTXry/wS48xswKBgQDUCeORupOS+jGU+mIjF4uYMSywLC29hatZ\ndDC/r0JtrXL/gn7tHlYvV2GUjrxD3//pSHbvk8jCVkqWUye8bfpVpDH2UEE7gNne\n1MQulFRwWnwhB9SmCS0N0InrLPiYXYb9uBTAec4BrHwUK4xEv22+EmTEXPU0hrjB\nvLcgCoJbJwKBgQCncYgAohljVAigDkXJTYEbzDkCI3VdvdncUIHFIbX3AaStzjb+\nBMEM5lffe1+7V619JGQX46UMPGbnhB+M7l3PXABxmIUpA47ON8wONyyDNd4FG+Sy\n9xsN04QNOMHoFzKfcPzIW7E2Fa7oX9/63gt9T/zv6Z/q3BXCZt2FHPW8uQKBgDdb\nlZQ4V8rpkwRIElMDFKjZPceI4TA3s7KZCRkiUn975ygaE7UoVGvrrkgws6os0w0+\no/6MYL+L89EnSJqDQ/YT9g9OiJlWXIs2lTlr9FeY6Atflf77Kk4PAdLqXMS6tkGL\nS6+snUIGnCZP8EEKkUYsWy6A7muWOKor8Mtmsv3FAoGBAK0m/9YSO9vE2hgiYaq9\n0YtfAseoUBc/4wQANXZKtMwoKQ6GZQNBgzNTOvNvmZWk2TTnaRD/vJBZFga6Q7k8\n2r3hXVdUA7LltcvkWjbNbR8Oy41dQM6JpFe5e7j7R4WSl+pFs+5MlLFaZgS4R/1l\nPEKa0b9uQizO4+5KDsH7Q1g0\n-----END PRIVATE KEY-----\n",
+  "client_email": "zero-downtime-key-6@cloudflare-pages-index-6.iam.gserviceaccount.com",
+  "client_id": "105850752768427165893",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/zero-downtime-key-6%40cloudflare-pages-index-6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

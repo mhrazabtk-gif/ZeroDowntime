@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wide-journey-512813-r4",
+  "private_key_id": "2bd0fc93ace20dc9a1a054da15ba8fd13bcb1827",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1Qs5rK6dbguQX\n1b7VH5jsxPat6jZgweq4aLbeCBvA1sbV+L0DQQFk/GGb0qewE5ndoqqGKERB+gnE\n2vT9Tq+M6Pe/QsN59XjqdfF9idr3S10ihmau7sz/kIdHE3ihl/X7DR450ZJpdwc9\n02jPFafoNII0smpYEvH5A6kP/LRXKrN3g88LRGlz4zbRQHisb4d6tk5bhgTVmzc5\n/u2QsHHJPTLc1tA/dp6HkIK7CAqik/v1F2Rt74DzzXnRvSg8i+8j+6E8yZsTvCiL\nJwBkkqO2aZHoh1MYRX/fCrRV3w+ZB8epRNz2znzm6rKntQV4yhEDbZHW2Jz8vgAM\nCg65npo9AgMBAAECggEAEVvVwVkzpJWnKuovJaFqR4iAWDz1GrSPejwbAS31HHVl\nIuI4lbpwu/9YiK/2m6vw4RMeMg1ipg/gRiAy9JxHvx6jdUdbSY961jdX2m4skGDB\nCVimNkwLyVDJx8KDW7ReG/4QXjimBSAfSyo3IBfileALdSj9+rPLxQ128B9DFRLK\nPWPjvUMXGaMSh/LZ0DxdVXE0An/sdxKjZKgAbbaA1lpElKiY0plI5I0hB0lGfYUE\n1vnh/FAi8u+PbhbOg+Pn7pmLzAI/xEWJMO63h57f95d5Y+X7LSudV9t/jXXwp5o8\n9UofArze/x9SmF+3zp0M7rgEmDNAumAoH/8MTTPcUQKBgQDjifaM3hB9sV0MsHCG\nht4Eh2qIALD0bUYrQ8+y6PsPXkh8efpJL3ezyrO65paqGNx0dBpl8ckvDoZ6NN0A\nFjk1chRWxO7e6p5FDFL9d7LTwbtlqnfPzgWPNnfGgimm6BhhOSjiwNjDfCKVmb6i\nAKQFzAsJJ8F2w8NGlm/6AwzkjQKBgQDL7vlfs4644HyNThUVDFK5hfh54MEj55lR\ndB0YV9OgkLOYlTUz9S7arHboV4Z78jT7DFgL0zfmOx3jkx4R3vyohc018wD5Lf0l\npVDobfGaUez6WlUYZah4gaCQ+SSLEGfLsdjjXVs6Qjbq01DhjdVnF5Jdw+3yCdUW\nL6w9eKKYcQKBgQCN+FfwPuI1OsQfFbuwBFhkpQVwRFYkvEWq2w2tyLZVOXOqzwS+\nQzLB6HjJ5fQdv5NVyddqwjjP9pUrjO5Tjoo1ca+FEC0mw2brGCxz4AqhG2DMp1dI\nPnizib2kCzTn4irMBrke+kqFdl+xzhLmy9WLlGtSVA7fBnhCA71sVhjmRQKBgAkR\nTSFGOJhb0u3thN50t9Dr9gplRfE0wQpwIUMN1KkVBgdIyx7OThEHDhpymdY1BMoM\n2HVeJOQlyMRvrCybP5y2plM5xNdPhiwAV8Kd8Notvl27WoFFM+J30Q3hJhDQ3+yc\nscoaQo4ql4qFbtk4lz6IO8fTiGb0rPbZk8z/6irhAoGBALSRDQpc18ErhvScp/L6\nV2fxGvWb5cBAGbFR+8o0Ex/QuhijcS1KZrcGHGuPsmarULp76oBrcUvL8NgKucrY\n5drmoTTe9kTCmBioYPvH7BvUAHDIkU/Z2/8TpcWAH0/pqsUKOWYKh34poo94Dpz/\nhJDolwCAq7JWzHchxNXBf3NV\n-----END PRIVATE KEY-----\n",
+  "client_email": "zero-downtime-key-8@wide-journey-512813-r4.iam.gserviceaccount.com",
+  "client_id": "108271122408422035686",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/zero-downtime-key-8%40wide-journey-512813-r4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
