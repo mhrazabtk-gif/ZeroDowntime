@@ -1,0 +1,78 @@
+name: Hourly Site Re-indexing and Indexing
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zero-downtime-deployment
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify Required Files
+        shell: bash
+        run: |
+          test -f urls.txt || {
+            echo "ERROR: urls.txt is missing."
+            exit 1
+          }
+
+          test -f public/_redirects || {
+            echo "ERROR: public/_redirects is missing."
+            exit 1
+          }
+
+          test -f e0e6a85fa1dc4a9798dd3e678baea50f.txt || {
+            echo "ERROR: IndexNow key file is missing."
+            exit 1
+          }
+
+      - name: Generate and Validate Sitemap
+        run: node build-sitemap.js
+
+      - name: Verify Deployment Files
+        shell: bash
+        run: |
+          test -s public/sitemap.xml
+          test -s public/_redirects
+          test -s public/e0e6a85fa1dc4a9798dd3e678baea50f.txt
+
+          grep -q '<lastmod>' public/sitemap.xml
+          grep -q '<changefreq>hourly</changefreq>' public/sitemap.xml
+
+          echo "All deployment checks passed."
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy public --project-name=zero-downtime --commit-dirty=true
+
+      - name: Run IndexNow Ping
+        if: success()
+        run: node ping-indexnow.js
+
+      - name: Run Google Indexing API with Rotated Key File
+        if: success()
+        run: |
+          CURRENT_HOUR=$(date -u +%-H)
+          KEY_INDEX=$((CURRENT_HOUR + 1))
+          echo "Selected Key Index for this hour: $KEY_INDEX"
+          export ACTIVE_KEY_PATH="keys/key-${KEY_INDEX}.json"
+          node ping-google.js
