@@ -44,13 +44,14 @@ for (const value of rawUrls) {
     throw new Error(`Invalid URL in urls.txt: ${value}`);
   }
 
+  // Yahan hostname strictly zero-downtime.pages.dev hona chahiye
   if (
     url.hostname.toLowerCase() !== 'zero-downtime.pages.dev' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
   ) {
-    throw new Error(`Unexpected URL in urls.txt: ${value}`);
+    throw new Error(`Unexpected URL in urls.txt: ${value} (Expected domain: zero-downtime.pages.dev)`);
   }
 
   url.protocol = 'https:';
